@@ -1,0 +1,26 @@
+1) é importante lembrar que...
+
+INCORRETO --------------------------------------------------- $('seletor seletor ID')
+CORRETO, id torna uma tag única. ---------------------------- $('ID')
+
+e é diferente de...
+
+CORRETO e ESPECIFICADO -------------------------------------- $('seletor seletor CLASSE CLASSE*...')
+CORRETO, só que com uma abordagem GENÉRICA, todos herdam ---- $('CLASSE')
+
+____________________________________________________________________________________________________
+
+2) A maioria dos erros no output que surgem do jQuery, assim como as diversas linguagens, são falhas 
+do programados, geralmente codificação errada(falta de atenção na escrita, confundir caracteres).
+
+____________________________________________________________________________________________________
+
+3) Ctrl+Shift+K(MOZILLA FIREFOX) = Ctrl+Shift+J(GOOGLE CHROME) = F12(todos os navegadores)
+
+____________________________________________________________________________________________________
+
+4) ao se abrir a tela de console em '3)', checar se CSS,JS,HTML,SECURITY,LOG...estão acionados.
+
+____________________________________________________________________________________________________
+
+5) Em JS e JQ, é aconselhavel dominar, pelo menos, o básico de expressões regulares, JSON e AJAX.

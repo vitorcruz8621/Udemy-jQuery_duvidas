@@ -1,0 +1,16 @@
+.botao1 {
+	background-color: darkblue;
+	font-size: 20px;
+	border: 3px solid black;
+}
+
+.botao2 {
+	background-color: darkred;
+	font-size: 25px;
+	border: 3px solid gray;
+}
+#botao_1 {
+}
+
+#botao_2 {
+}

@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	background-color: yellow;
+}
+
+#titulo {
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: darkgray;
+	display: none;
+}
+
+#objeto {
+	width: 150px;
+	height: 150px;
+	background-color: #000;
+	position: absolute;
+	cursor: move;
+}
+
+#observacao {
+	position: absolute;
+	color: darkcyan;
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+	right: 10px;
+	top: 10px;
+}

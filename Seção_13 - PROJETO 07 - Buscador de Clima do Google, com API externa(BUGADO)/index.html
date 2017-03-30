@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+		<title>Seção_13 - PROJETO 07 - Buscador de Clima do Google, com API externa</title>
+		<link rel='stylesheet' type="text/css" href='css-eu.css'>
+	</head>
+	<body>
+		<p id="titulo">
+			PROJETO 07 - Buscador de Clima do Google, com API externa
+		</p>
+
+		<input type="text" id="cidade" />
+		<button>Pesquisar</button>
+
+		<div id="res">0º C</div>
+
+		<p/>
+		<div>http://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (SELECT woeid FROM geo.places WHERE text="({28.3949},{84.1240})")</div>
+		<div>http://query.yahooapis.com/v1/public/yql?q=select * from weather.forecast where woeid in (SELECT woeid FROM geo.places WHERE text="({28.3949},{84.1240})")&format=json</div>
+		
+
+		
+		<script src='../jquery.min.js'></script>
+		<script src='script-eu.js'></script>
+	</body>
+</html>

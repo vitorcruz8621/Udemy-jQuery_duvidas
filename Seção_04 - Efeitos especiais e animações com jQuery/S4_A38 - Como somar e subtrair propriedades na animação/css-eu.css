@@ -1,0 +1,39 @@
+div {
+	width: 250px;
+	text-align: center;
+}
+
+.botao {
+	height: 30px;
+	line-height: 35px;
+	background-color: #999;
+	cursor: pointer;
+}
+
+.div {
+	height: 60px;
+	line-height: 20px;
+	background-color: darkblue;
+	position: absolute;
+}
+
+.btn {
+	position: absolute;
+	height: 30px;
+	width: 85px;
+	margin: 2px;
+	top: 10px;
+	text-align: center;
+}
+
+#btn_1 {
+	right: 20px;
+}
+
+#btn_2 {
+	right: 120px;
+}
+
+#btn_3 {
+	right: 220px;
+}

@@ -1,0 +1,30 @@
+#titulo {
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+	position: absolute;
+	right: 10px;
+	color: darkgray;
+}
+
+body {
+	margin: 0px;
+	background-color: lightskyblue;
+}
+
+.menu {
+	width: 800px;
+	height: 70px;
+	background-color: #DDD;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -400px;
+	margin-top: -30px;
+}
+
+.icone {
+	width: 70px;
+	height: 70px;
+	background-color: #CCC;
+	float: left;
+	margin-right: 10px;
+}

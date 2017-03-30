@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+li {
+	float: left;
+	padding: 0px 20px;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+#titulo {
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+	position: absolute;
+	right: 10px;
+	color: darkgray;
+}
+
+.menu {
+	text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px yellow;
+	height: 40px;
+	background-color: #000;
+	color: #FFF;
+}
+
+.menu1 {
+	height: 40px;
+}
+
+.menu2 {
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	background-color: #000;
+	display: none;
+}

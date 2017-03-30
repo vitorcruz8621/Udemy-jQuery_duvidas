@@ -1,0 +1,18 @@
+div {
+	width: 250px;
+	text-align: center;
+}
+
+.botao {
+	height: 30px;
+	line-height: 35px;
+	background-color: #999;
+	cursor: pointer;
+}
+
+.div {
+	height: 60px;
+	line-height: 20px;
+	background-color: darkblue;
+	position: absolute;
+}

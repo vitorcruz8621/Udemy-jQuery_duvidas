@@ -1,0 +1,8 @@
+var inputOff = $('#nome').attr('disabled','disabled');
+var inputOn = $('#nome').removeAttr('disabled');
+
+var checkOff = $('#sexo').attr('disabled','disabled');
+var checkOn = $('#sexo').removeAttr('disabled');
+
+var checkOn_check = $('#sexo').attr('checked','checked');
+var checkOff_check = $('#sexo').removeAttr('checked');
